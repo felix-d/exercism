@@ -1,10 +1,5 @@
-pub fn hamming_distance(seq1: &str, seq2: &str) -> Result<usize, ()> {
-    if seq1.len() != seq2.len() {
-        return Err(());
-    }
+pub fn hamming_distance(nuc_a: &str, nuc_b: &str) -> Result<usize, &'static str> {
+  if nuc_a.len() != nuc_b.len() { return Err("Lengths must be equal.") }
 
-	Ok(seq1.chars()
-	   .zip(seq2.chars())
-	   .filter(|&(i, j)| i != j)
-	   .count())
+  Ok(nuc_a.chars().zip(nuc_b.chars()).filter(|&(a, b)| a != b).count())
 }

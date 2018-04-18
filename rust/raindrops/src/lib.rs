@@ -1,12 +1,12 @@
-pub fn raindrops(number: i32) -> String {
-    match (number % 3, number % 5, number % 7) {
-        (0, 0, 0) => "PlingPlangPlong".to_owned(),
-        (0, 0, _) => "PlingPlang".to_owned(),
-        (0, _, 0) => "PlingPlong".to_owned(),
-        (_, 0, 0) => "PlangPlong".to_owned(),
-        (0, _, _) => "Pling".to_owned(),
-        (_, 0, _) => "Plang".to_owned(),
-        (_, _, 0) => "Plong".to_owned(),
-        _ => number.to_string(),
-    }
+pub fn raindrops(drops: u32) -> String {
+  let mut result = String::new();
+
+  if drops % 3 == 0 { result.push_str("Pling"); }
+  if drops % 5 == 0 { result.push_str("Plang"); }
+  if drops % 7 == 0 { result.push_str("Plong"); }
+
+  match result.as_ref() {
+    "" => drops.to_string(),
+    _ => result
+  }
 }

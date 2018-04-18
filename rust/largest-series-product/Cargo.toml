@@ -1,0 +1,6 @@
+[package]
+name = "largest-series-product"
+version = "1.0.0"
+
+[dependencies]
+regex = "0.2"

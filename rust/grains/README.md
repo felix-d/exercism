@@ -1,6 +1,7 @@
 # Grains
 
-Write a program that calculates the number of grains of wheat on a chessboard given that the number on each square doubles.
+Calculate the number of grains of wheat on a chessboard given that the number
+on each square doubles.
 
 There once was a wise servant who saved the life of a prince. The king
 promised to pay whatever the servant could dream up. Knowing that the
@@ -10,7 +11,7 @@ the next. Four on the third, and so on.
 
 There are 64 squares on a chessboard.
 
-Write a program that shows:
+Write code that shows:
 - how many grains were on each square, and
 - the total number of grains
 
@@ -61,6 +62,6 @@ If you want to know more about Exercism, take a look at the [contribution guide]
 
 JavaRanch Cattle Drive, exercise 6 [http://www.javaranch.com/grains.jsp](http://www.javaranch.com/grains.jsp)
 
-## Submitting Incomplete Problems
+## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
 

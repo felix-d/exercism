@@ -1,0 +1,55 @@
+
+==================== FINAL INTERFACE ====================
+2017-11-29 20:06:27.207731 UTC
+
+interface isbn-verifier-2.0.0.2-T1Tt6b0RZCCeIUYZvnX4b:IsbnVerifier 8002
+  interface hash: 576077e1041f551c0e375240539f8957
+  ABI hash: 11be3e3846694eeccd9c6145a8ab04bc
+  export-list hash: 74b24f42f1da49d57323f359206a0472
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f6624f22fcdd76ed0ac6625466e2d712
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  IsbnVerifier.isbn
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
+829dad1aab915df1aa2dd3ec2ed0d754
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   IsbnVerifier.$trModule2
+                   IsbnVerifier.$trModule1) -}
+f912debf4ad1285ed4a00e0e74206cc9
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "IsbnVerifier"#) -}
+aa16e6d15785587dfbfb5e05af02912c
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "isbn-verifier-2.0.0.2-T1Tt6b0RZCCeIUYZvnX4b"#) -}
+5e762e0ad86fe13642290631d35939bb
+  isbn :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (str :: GHC.Base.String) -> GHC.Types.True) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

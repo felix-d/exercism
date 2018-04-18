@@ -1,11 +1,13 @@
-pub fn sum_of_squares(nat: i32) -> i32 {
-    (1..nat + 1).fold(0, |sum, x| sum + x.pow(2))
+use std::iter::Sum;
+
+pub fn square_of_sum(num: u32) -> u32 {
+  u32::pow(u32::sum(1..num + 1), 2)
 }
 
-pub fn square_of_sum(nat: i32) -> i32 {
-    (1..nat + 1).fold(0, |sum, x| sum + x).pow(2)
+pub fn sum_of_squares(num: u32) -> u32 {
+  (1..num + 1).fold(0, |acc, n| acc + u32::pow(n, 2))
 }
 
-pub fn difference(nat: i32) -> i32 {
-    square_of_sum(nat) - sum_of_squares(nat)
+pub fn difference(num: u32) -> u32 {
+  square_of_sum(num) - sum_of_squares(num)
 }

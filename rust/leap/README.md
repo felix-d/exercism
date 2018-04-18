@@ -1,6 +1,6 @@
 # Leap
 
-Write a program that will take a year and report if it is a leap year.
+Given a year, report if it is a leap year.
 
 The tricky thing here is that a leap year in the Gregorian calendar occurs:
 
@@ -61,6 +61,6 @@ If you want to know more about Exercism, take a look at the [contribution guide]
 
 JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
 
-## Submitting Incomplete Problems
+## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
 

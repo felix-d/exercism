@@ -1,13 +1,18 @@
-pub fn reply(say: &str) -> String {
-    if say.is_empty() {
-        "Fine. Be that way!".to_owned()
-    } else if say.chars().filter(|c| c.is_alphabetic()).all(|c| c.is_uppercase()) {
-        "Whoa, chill out!".to_owned()
-    } else if say.ends_with("!") {
-        "Whatever.".to_owned()
-    } else if say.ends_with("?") {
-        "Sure.".to_owned()
-    } else {
-        "Whatever.".to_owned()
-    }
+pub fn reply(question: &'static str) -> &'static str {
+  let question = question.trim();
+
+  if question.is_empty() {
+    "Fine. Be that way!"
+  } else if is_yelling(question) {
+    "Whoa, chill out!"
+  } else if question.chars().last() == Some('?') {
+    "Sure."
+  } else {
+    "Whatever."
+  }
+}
+
+fn is_yelling(question: &str) -> bool {
+  let alphabetic = question.trim_matches(|c: char| !c.is_alphabetic());
+  !alphabetic.is_empty() && alphabetic == alphabetic.to_uppercase()
 }

@@ -1,0 +1,1 @@
+/Users/felixdescoteaux/exercism/rust/run-length-encoding/target/debug/run_length_encoding-3c71736a92733c57: /Users/felixdescoteaux/exercism/rust/run-length-encoding/src/lib.rs /Users/felixdescoteaux/exercism/rust/run-length-encoding/tests/run-length-encoding.rs

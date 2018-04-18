@@ -1,6 +1,6 @@
 # Raindrops
 
-Write a program that converts a number to a string, the contents of which depend on the number's factors.
+Convert a number to a string, the contents of which depend on the number's factors.
 
 - If the number has 3 as a factor, output 'Pling'.
 - If the number has 5 as a factor, output 'Plang'.
@@ -12,7 +12,7 @@ Write a program that converts a number to a string, the contents of which depend
 
 - 28's factors are 1, 2, 4, **7**, 14, 28.
   - In raindrop-speak, this would be a simple "Plong".
-- 30's factors are 1, 2, **3**, **5**, 6, 15, 30.
+- 30's factors are 1, 2, **3**, **5**, 6, 10, 15, 30.
   - In raindrop-speak, this would be a "PlingPlang".
 - 34 has four factors: 1, 2, 17, and 34.
   - In raindrop-speak, this would be "34".
@@ -52,6 +52,6 @@ If you want to know more about Exercism, take a look at the [contribution guide]
 
 A variation on a famous interview question intended to weed out potential candidates. [http://jumpstartlab.com](http://jumpstartlab.com)
 
-## Submitting Incomplete Problems
+## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
 

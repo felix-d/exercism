@@ -1,0 +1,1 @@
+/Users/felixdescoteaux/exercism/rust/armstrong-numbers/target/debug/armstrong_numbers-4c56063e652b817f: /Users/felixdescoteaux/exercism/rust/armstrong-numbers/src/lib.rs /Users/felixdescoteaux/exercism/rust/armstrong-numbers/tests/armstrong-numbers.rs

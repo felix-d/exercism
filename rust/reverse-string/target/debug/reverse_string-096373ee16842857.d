@@ -1,0 +1,1 @@
+/Users/felixdescoteaux/exercism/rust/reverse-string/target/debug/reverse_string-096373ee16842857: /Users/felixdescoteaux/exercism/rust/reverse-string/src/lib.rs /Users/felixdescoteaux/exercism/rust/reverse-string/tests/reverse-string.rs

@@ -1,0 +1,12 @@
+[package]
+name = "word-count"
+version = "0.0.0"
+
+[dependencies]
+rayon = "0.8.2"
+num_cpus = "1.6.2"
+clippy = {version = "*", optional = true}
+itertools = "0.6.1"
+
+[features]
+default = []

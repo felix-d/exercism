@@ -1,10 +1,7 @@
 extern crate chrono;
 use chrono::*;
 
-pub fn after(start_date: DateTime<UTC>) -> DateTime<UTC> {
-    let base: i64 = 10;
-    let duration = Duration::seconds(base.pow(9));
-    start_date + duration
+// Returns a UTC DateTime one billion seconds after start.
+pub fn after(start: DateTime<UTC>) -> DateTime<UTC> {
+  start + Duration::seconds(1_000_000_000)
 }
-
-

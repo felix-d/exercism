@@ -1,0 +1,1 @@
+/Users/felixdescoteaux/exercism/rust/proverb/target/debug/proverb-84f9a974596268a1: /Users/felixdescoteaux/exercism/rust/proverb/tests/proverb.rs /Users/felixdescoteaux/exercism/rust/proverb/src/lib.rs
